@@ -13,3 +13,7 @@ is always a string - capped at 32chars. The value is always a JSON object - capp
 4. A Read operation on a key can be performed by providing the key, and receiving the
 value in response, as a JSON object.
 5. A Delete operation can be performed by providing the key.
+
+The "app.js" file contains the nodejs code to accomplish the above task.
+The "db.json" file is a data store where the key-value pair of data are present.
+The output of these code is shown in "output" file.
